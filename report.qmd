@@ -1,0 +1,17 @@
+---
+title: "The 4/20 Effect: Fatal Vehicle Crashes and the Annual Cannabis Holiday"
+author: "Daniel Dawit, Pranav Kannan, Sid Mehrok, Satvik Kannekanti"
+date: today
+format:
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    fontsize: 12pt
+    number-sections: true
+    toc: false
+    fig-pos: "H"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
