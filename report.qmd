@@ -15,3 +15,16 @@ execute:
   warning: false
   message: false
 ---
+
+## Data
+
+### Sources
+
+This analysis uses two datasets from the TidyTuesday 2025-04-22 release, both derived from FARS:
+
+- **`daily_accidents_420.csv`** (9,170 observations): One row per calendar day, with a binary indicator marking April 20th (`cannabis_holiday`) and `fatalities_count` recording total daily fatal crashes. This dataset spans 1992–2016.
+
+- **`daily_accidents_420_time.csv`** (23,086 observations): Two rows per calendar day: one for the 4:20pm–11:59pm window (`evening_window = TRUE`) and one for the remainder of the day (`evening_window = FALSE`) with `fatalities_count` recording crashes in each window. This dataset also spans 1992–2016.
+
+
+
